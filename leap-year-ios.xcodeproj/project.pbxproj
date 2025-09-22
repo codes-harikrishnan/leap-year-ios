@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		562677532E81514000877449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562677502E81514000877449 /* Assets.xcassets */; };
+		562677752E81637400877449 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 562677742E81636A00877449 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		5626772D2E81510F00877449 /* leap-year-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "leap-year-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		562677372E81510F00877449 /* leap-year-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "leap-year-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		562677502E81514000877449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		562677742E81636A00877449 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +82,7 @@
 		562677172E81510D00877449 = {
 			isa = PBXGroup;
 			children = (
+				562677742E81636A00877449 /* README.md */,
 				562677222E81510D00877449 /* App */,
 				5626775C2E8151F400877449 /* Core */,
 				562677302E81510F00877449 /* Tests */,
@@ -241,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				562677752E81637400877449 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
