@@ -22,6 +22,11 @@ final class LeapYearTests: XCTestCase {
     func test_anYearDivisibleBy400IsALeapYear() {
         XCTAssertTrue(LeapYear.isLeapYear(2000))
     }
+    
+    func test_generalCalendarYears() {
+        XCTAssertTrue(LeapYear.isLeapYear(1984))
+        XCTAssertFalse(LeapYear.isLeapYear(1982))
+    }
 
 }
 
