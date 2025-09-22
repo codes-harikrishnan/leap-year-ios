@@ -18,5 +18,10 @@ final class LeapYearTests: XCTestCase {
     func test_anYearDivisibleBy100IsNotALeapYear() {
         XCTAssertFalse(LeapYear.isLeapYear(1800))
     }
+    
+    func test_anYearDivisibleBy400IsALeapYear() {
+        XCTAssertTrue(LeapYear.isLeapYear(2000))
+    }
+
 }
 

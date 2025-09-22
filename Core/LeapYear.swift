@@ -11,6 +11,9 @@ public struct LeapYear {
         year % divisor == 0
     }
     public static func isLeapYear (_ year: Int) -> Bool {
+        if isDivisible(year: year, divisor: 400) {
+            return true
+        }
         if isDivisible(year: year, divisor: 100) {
             return false
         }
