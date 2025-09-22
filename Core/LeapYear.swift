@@ -7,10 +7,13 @@
 import Foundation
 
 public struct LeapYear {
+    private static func isDivisible (year: Int, divisor: Int ) -> Bool {
+        year % divisor == 0
+    }
     public static func isLeapYear (_ year: Int) -> Bool {
-       if year % 100 == 0 {
+        if isDivisible(year: year, divisor: 100) {
             return false
         }
-       return year % 4 == 0
+       return isDivisible(year: year, divisor: 4)
     }
 }
