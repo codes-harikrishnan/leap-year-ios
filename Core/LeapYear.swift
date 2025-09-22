@@ -8,6 +8,9 @@ import Foundation
 
 public struct LeapYear {
     public static func isLeapYear (_ year: Int) -> Bool {
-       year % 4 == 0
+       if year % 100 == 0 {
+            return false
+        }
+       return year % 4 == 0
     }
 }
